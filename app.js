@@ -13,7 +13,7 @@ const User = require('./models/user');
 
 const app = express();
 
-const MONGODB_URI ='mongodb+srv://root:1234567890@cluster0.ixdnz.mongodb.net/myFirstDatabase?retryWrites=true&w=majority';     
+const MONGODB_URI ='';     
  //connectn string as it needs to know in which db, server to store ur data.
 const store = new MongoDBStore({
   uri: MONGODB_URI,             //a MongoDB connection string
